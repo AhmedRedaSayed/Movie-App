@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Poppins&display=swap');
+
+
+
+:root
+{
+  --bg-main:#131722;
+  --text-color:#fff;
+  --font-main:'Montserrat Alternates', sans-serif;
+  --light-main:#24baef;
+  --border-color:#a8a8a83d;
+
+
+}
+
+body
+{
+  background-color: var(--bg-main);
+  color: var(--text-color);
+  font-family: var(--font-main) ;
+}
+
+.bg-light-main
+{
+background-color: var(--light-main);
+}
+
+a ,a:hover
+{
+  text-decoration: none;
+  color: var(--text-color);
+  color: var(--light-main);
+}
+
+
+.my-input
+{
+
+  background-color: transparent;
+  color: var(--text-color);
+  border: solid 1px var(--border-color);
+
+}
+
+.cursor-pointer
+{
+  cursor: pointer;
+}
+
+.brdr
+{
+  height: 1px;
+  background-color: var(--border-color);
+
+
+}
+
+.vote
+{
+  background-color: var(--light-main);
+}
+
+.bordr
+{
+  width: 30px;
+  background-color: var(--light-main);
+
+}
